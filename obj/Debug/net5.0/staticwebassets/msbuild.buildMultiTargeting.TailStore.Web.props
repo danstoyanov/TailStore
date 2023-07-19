@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TailStore.Web.props" />
+</Project>
