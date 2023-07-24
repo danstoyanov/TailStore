@@ -5,11 +5,11 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TailStore.Web", "TailStore.Web.csproj", "{53C7E2F4-6522-4AA5-A6E3-AA394C91999E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TailStore.Services", "..\TailStore.Services\TailStore.Services.csproj", "{A110E61B-41C9-4EAE-B760-9B5263FCECCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TailStore.Services", "..\TailStore.Services\TailStore.Services.csproj", "{A110E61B-41C9-4EAE-B760-9B5263FCECCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TailStore.Data", "..\TailStore.Data\TailStore.Data.csproj", "{7438D086-8863-48BC-B472-81F409663F44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TailStore.Data", "..\TailStore.Data\TailStore.Data.csproj", "{7438D086-8863-48BC-B472-81F409663F44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TailStore.Common", "..\TailStore.Common\TailStore.Common.csproj", "{8D5F3E40-DE7B-459A-B30E-5F67DB178270}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TailStore.Common", "..\TailStore.Common\TailStore.Common.csproj", "{8D5F3E40-DE7B-459A-B30E-5F67DB178270}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

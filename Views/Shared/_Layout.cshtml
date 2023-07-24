@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-<head>
+<head class="bg-orange-100">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - TailStore</title>
@@ -8,11 +8,13 @@
     <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
 </head>
-<body>
+<body class="bg-orange-100">
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-orange-100 border-bottom box-shadow mb-3">
             <div class="container">
-                <img src="~/imgs/TailStore.png" class="h-8 mr-3" asp-area="" asp-controller="Home" asp-action="Index"/>
+                <button class="btn-link" asp-controller="Home" asp-action="Index">
+                    <img src="~/imgs/TailStore.png" class="h-8 mr-3" asp-area="" asp-controller="Home" asp-action="Index" />
+                </button>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -39,7 +41,7 @@
             @RenderBody()
         </main>
     </div>
-    <footer class="border-top footer text-muted">
+    <footer class="border-top footer bg-orange-100 text-muted">
         <div class="text-sky-400">
             &copy; 2023 - TailStore - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
