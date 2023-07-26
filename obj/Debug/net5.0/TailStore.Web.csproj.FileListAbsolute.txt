@@ -406,3 +406,4 @@ C:\Users\Dan Stoyanov\source\TailStore\TailStore\obj\Debug\net5.0\refint\TailSto
 C:\Users\Dan Stoyanov\source\TailStore\TailStore\obj\Debug\net5.0\TailStore.Web.pdb
 C:\Users\Dan Stoyanov\source\TailStore\TailStore\obj\Debug\net5.0\TailStore.Web.genruntimeconfig.cache
 C:\Users\Dan Stoyanov\source\TailStore\TailStore\obj\Debug\net5.0\ref\TailStore.Web.dll
+C:\Users\Dan Stoyanov\source\TailStore\TailStore\obj\Debug\net5.0\Razor\Views\Product\ListedProducts.cshtml.g.cs
