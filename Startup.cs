@@ -14,6 +14,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 using TailStore.Data;
+using TailStore.Web.Controllers;
 
 namespace TailStore
 {
@@ -37,6 +38,7 @@ namespace TailStore
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<TailStoreDbContext>();
             services.AddControllersWithViews();
+            services.AddTransient<ProductController>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

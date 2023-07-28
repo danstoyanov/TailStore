@@ -407,3 +407,5 @@ C:\Users\Dan Stoyanov\source\TailStore\TailStore\obj\Debug\net5.0\TailStore.Web.
 C:\Users\Dan Stoyanov\source\TailStore\TailStore\obj\Debug\net5.0\TailStore.Web.genruntimeconfig.cache
 C:\Users\Dan Stoyanov\source\TailStore\TailStore\obj\Debug\net5.0\ref\TailStore.Web.dll
 C:\Users\Dan Stoyanov\source\TailStore\TailStore\obj\Debug\net5.0\Razor\Views\Product\ListedProducts.cshtml.g.cs
+C:\Users\Dan Stoyanov\source\TailStore\TailStore\obj\Debug\net5.0\Razor\Views\Product\AddProduct.cshtml.g.cs
+C:\Users\Dan Stoyanov\source\TailStore\TailStore\obj\Debug\net5.0\Razor\Views\Blog\BlogView.cshtml.g.cs

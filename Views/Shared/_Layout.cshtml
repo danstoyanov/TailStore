@@ -25,16 +25,25 @@
                 <div class="navbar-collapse">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="mr-3">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-dark hover:underline" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="mr-3">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-dark hover:underline" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
                         <li class="mr-3">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Test" asp-action="Test">🧪 Test Page</a>
+                            <a class="nav-link text-dark hover:underline" asp-area="" asp-controller="Test" asp-action="Test">🧪 Test Page</a>
                         </li>
                         <li class="mr-3">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Product" asp-action="ListedProducts">Products</a>
+                            <a class="nav-link text-dark hover:underline" asp-area="" asp-controller="Product" asp-action="ListedProducts">Products</a>
+                        </li>
+                        <li class="mr-3">
+                            <a class="nav-link text-dark hover:underline" asp-area="" asp-controller="Product" asp-action="AddProduct">Add Products</a>
+                        </li>
+                        <li class="mr-3">
+                            <a class="nav-link text-dark hover:underline" asp-area="" asp-controller="Blog" asp-action="BlogView">Blog</a>
+                        </li>
+                        <li class="mr-3">
+                            <a class="nav-link text-dark hover:underline" asp-area="" asp-controller="Product" asp-action="ListedProducts">Dashboard</a>
                         </li>
                     </ul>
                     <partial name="_LoginPartial" />
@@ -48,8 +57,8 @@
         </main>
     </div>
     <footer class="border-top footer bg-orange-100 text-muted">
-        <div class="text-sky-400">
-            &copy; 2023 - TailStore - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        <div class="bg-orange-100 flex items-center justify-center">
+            &copy; 2023 - TailStore. All Rights Reserved.
         </div>
 
     </footer>
