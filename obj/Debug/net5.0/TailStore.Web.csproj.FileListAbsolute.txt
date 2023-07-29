@@ -409,3 +409,4 @@ C:\Users\Dan Stoyanov\source\TailStore\TailStore\obj\Debug\net5.0\ref\TailStore.
 C:\Users\Dan Stoyanov\source\TailStore\TailStore\obj\Debug\net5.0\Razor\Views\Product\ListedProducts.cshtml.g.cs
 C:\Users\Dan Stoyanov\source\TailStore\TailStore\obj\Debug\net5.0\Razor\Views\Product\AddProduct.cshtml.g.cs
 C:\Users\Dan Stoyanov\source\TailStore\TailStore\obj\Debug\net5.0\Razor\Views\Blog\BlogView.cshtml.g.cs
+C:\Users\Dan Stoyanov\source\TailStore\TailStore\obj\Debug\net5.0\Razor\Views\Product\AdminProducts.cshtml.g.cs

@@ -34,6 +34,23 @@ namespace TailStore.Web.Controllers
 
             return View();
         }
+
+        public IActionResult AdminProducts()
+        {
+            // Test to add employee in the Database!
+            //var product = new Product
+            //{
+            //    Id = "12345",
+            //    Title = "Doritos Pickel and Cool Ranch Collisions",
+            //    Price = 1.99,
+            //    ImageUrl = "https://m.media-amazon.com/images/I/61yebrQm1yL._SL1080_.jpg"
+            //};
+
+            //this.data.Products.Add(product);
+            //this.data.SaveChanges();
+
+            return View();
+        }
     }
 }
 

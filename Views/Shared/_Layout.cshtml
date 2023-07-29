@@ -28,10 +28,10 @@
                             <a class="nav-link text-dark hover:underline" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="mr-3">
-                            <a class="nav-link text-dark hover:underline" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            @*<a class="nav-link text-dark hover:underline" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>*@
                         </li>
                         <li class="mr-3">
-                            <a class="nav-link text-dark hover:underline" asp-area="" asp-controller="Test" asp-action="Test">🧪 Test Page</a>
+                            @*<a class="nav-link text-dark hover:underline" asp-area="" asp-controller="Test" asp-action="Test">🧪 Test Page</a>*@
                         </li>
                         <li class="mr-3">
                             <a class="nav-link text-dark hover:underline" asp-area="" asp-controller="Product" asp-action="ListedProducts">Products</a>
@@ -40,10 +40,13 @@
                             <a class="nav-link text-dark hover:underline" asp-area="" asp-controller="Product" asp-action="AddProduct">Add Products</a>
                         </li>
                         <li class="mr-3">
-                            <a class="nav-link text-dark hover:underline" asp-area="" asp-controller="Blog" asp-action="BlogView">Blog</a>
+                            <a class="nav-link text-dark hover:underline" asp-area="" asp-controller="Product" asp-action="AdminProducts">Admin Products</a>
                         </li>
                         <li class="mr-3">
-                            <a class="nav-link text-dark hover:underline" asp-area="" asp-controller="Product" asp-action="ListedProducts">Dashboard</a>
+                            @*<a class="nav-link text-dark hover:underline" asp-area="" asp-controller="Blog" asp-action="BlogView">Blog</a>*@
+                        </li>
+                        <li class="mr-3">
+                            @*<a class="nav-link text-dark hover:underline" asp-area="" asp-controller="Product" asp-action="ListedProducts">Dashboard</a>*@
                         </li>
                     </ul>
                     <partial name="_LoginPartial" />
