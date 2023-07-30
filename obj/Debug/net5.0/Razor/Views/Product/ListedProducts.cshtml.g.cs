@@ -21,27 +21,27 @@ using TailStore;
 #nullable disable
 #nullable restore
 #line 2 "C:\Users\Dan Stoyanov\source\TailStore\TailStore\Views\_ViewImports.cshtml"
-using TailStore.Data;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 3 "C:\Users\Dan Stoyanov\source\TailStore\TailStore\Views\_ViewImports.cshtml"
 using TailStore.Models;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\Dan Stoyanov\source\TailStore\TailStore\Views\_ViewImports.cshtml"
+#line 3 "C:\Users\Dan Stoyanov\source\TailStore\TailStore\Views\_ViewImports.cshtml"
 using TailStore.Web.Models;
 
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "C:\Users\Dan Stoyanov\source\TailStore\TailStore\Views\_ViewImports.cshtml"
+using TailStore.Web.Models.Products;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"68d0378ab79d14dcc3ad094be78a58bb3040c674", @"/Views/Product/ListedProducts.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"90d9dec05a204044876dfe5a6dc41a3a2fb15934", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c1f82ef6c29a63d30f85c8323c5ac80f64e025db", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Product_ListedProducts : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable
